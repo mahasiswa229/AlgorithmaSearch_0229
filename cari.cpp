@@ -18,7 +18,7 @@ void LinearSearch()
 
         ctr = 0;
         i = 0;
-    } 
+    
     while (i < n)
     {
         ctr++;
@@ -29,8 +29,11 @@ void LinearSearch()
         }
         i++;
     }
-    
-
-    
+    if (i == n)
+    cout << "\n"<< "Item tidak ditemukan.";
+    cout << "\nAngka pembanding :" << ctr << endl;
+    cout << "Lanjutkan mencari (y/n): ";
+    cin >> ch;
+    } while ((ch =='y')(ch == 'Y')) ;   
 }
 int main() {}
