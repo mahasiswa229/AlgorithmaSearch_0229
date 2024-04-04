@@ -27,8 +27,9 @@ void LinearSearch()
             cout << "\n" << item << " ditemukan pada index ke-" << (i+1);
             break;
         }
+        i++;
     }
-    i++;
+    
 
     
 }
