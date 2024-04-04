@@ -15,6 +15,9 @@ void LinearSearch()
     {
         cout << "\n Masukan Elemen yang ingin dicari :";
         cin >> item;
+
+        ctr = 0;
+        i = 0;
     } while (/* condition */);
     
 }
