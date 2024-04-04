@@ -5,5 +5,9 @@ int arr[20];
 int n;
 int i;
 
-void LinearSearch(){}
+void LinearSearch()
+{
+    char ch;
+    
+}
 int main() {}
