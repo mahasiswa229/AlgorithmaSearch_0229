@@ -24,7 +24,8 @@ void LinearSearch()
         ctr++;
         if(arr[i] == item)
         {
-
+            cout << "\n" << item << " ditemukan pada index ke-" << (i+1);
+            break;
         }
     }
     i++;
