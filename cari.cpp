@@ -18,7 +18,17 @@ void LinearSearch()
 
         ctr = 0;
         i = 0;
-    } while (i < n);
+    } 
+    while (i < n)
+    {
+        ctr++;
+        if(arr[i] == item)
+        {
+
+        }
+    }
+    i++;
+
     
 }
 int main() {}
