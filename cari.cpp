@@ -5,6 +5,27 @@ int arr[20];
 int n;
 int i;
 
+void input()
+{
+    while (true)
+    {
+        cout << "Masukan  jumlah data : "; 
+        cin >> n;
+        if((n > 0) && (n <= 20))
+            break;
+        else
+        cout << "Jumlah data minimum harus 1 dan maksimal 20.\n\n";
+    }
+
+    cout << "\n----------------\n";
+    cout << "Masukan Elemen Array";
+    cout << "\n----------------\n";
+    for(i = 0 ; i < n ; i++)
+    {
+        cout << "<" << (i+1) << ">";
+        cin  >> arr[i] ;
+    }
+}           
 void LinearSearch()
 {
     char ch;
