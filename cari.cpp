@@ -18,7 +18,7 @@ void LinearSearch()
 
         ctr = 0;
         i = 0;
-    } while (/* condition */);
+    } while (i < n);
     
 }
 int main() {}
